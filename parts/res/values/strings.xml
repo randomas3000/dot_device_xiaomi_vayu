@@ -91,4 +91,7 @@
      <string name="haptic_level_summary">The amount of vibration intensity</string>
      <string name="haptic_level_summary_incompatible">Kernel did not support this feature</string>
 
+    <!-- Refresh Rate tile -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+
 </resources>
