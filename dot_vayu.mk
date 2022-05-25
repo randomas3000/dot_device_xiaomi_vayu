@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common CipherOS configurations
-$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+# Inherit common DotOS configurations
+$(call inherit-product, vendor/dot/config/common.mk)
 
-PRODUCT_NAME := cipher_vayu
+PRODUCT_NAME := dot_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
@@ -29,5 +29,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.3.0.SJUMIXM:user/release-keys
 
-# CipherOS Flags
-CIPHER_MAINTAINER := clhexftw
