@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit common DotOS configurations
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 PRODUCT_NAME := cherish_vayu
 PRODUCT_DEVICE := vayu
