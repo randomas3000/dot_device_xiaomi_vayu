@@ -32,3 +32,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true 
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true 
 CHERISH_VANILLA := true
+
+#some extras
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
