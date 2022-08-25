@@ -31,3 +31,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 #some flags
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true 
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true 
+
+
+#maintainer
+# CherishOS
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.cherish.maintainer=randomas3000
